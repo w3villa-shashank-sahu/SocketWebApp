@@ -41,34 +41,35 @@ Before running this application, ensure you have the following installed:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git]
    cd socket-app
-Backend Setup (NodeJS):
+   
+2. **Backend Setup (NodeJS):**
 
-```Bash
-create an empty project
-cd..  // Navigate back to the root of your project
-npm init
-npm install cors express socket.io axios
-node index.js // Start the server
-```
+   ```Bash
+   create an empty project
+   cd..  // Navigate back to the root of your project
+   npm init
+   npm install cors express socket.io axios
+   node index.js // Start the server
+   ```
 
 
-Frontend Setup (Flutter):
+3. **Frontend Setup (Flutter):**
 
-```Bash
-craete a new project
-cd .. // Navigate back to the root of your project
-replace your default main.dart with the main.dart you just downloaded
-flutter pub add socket_io_client
-flutter pub get  // Install Flutter dependencies
-flutter run -d chrome  // Run the Flutter app on chrome
-```
+   ```Bash
+   craete a new project
+   cd .. // Navigate back to the root of your project
+   replace your default main.dart with the main.dart you just downloaded
+   flutter pub add socket_io_client
+   flutter pub get  // Install Flutter dependencies
+   flutter run -d chrome  // Run the Flutter app on chrome
+   ```
 
-Usage
+### Usage
 Start the NodeJS server in one terminal.
 Run the Flutter app.
 The app should connect to the server. You should be able to send and receive messages between the app and any other connected clients.
 
-###Video Demonstration
+### Video Demonstration
 
 **A working preview video is also present along with code**
 
